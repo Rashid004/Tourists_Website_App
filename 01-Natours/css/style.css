@@ -55,8 +55,24 @@ body {
   .heading-secondry:hover {
     transform: skewY(2deg) skewX(15deg); }
 
+.heading-tertary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .u-center-text {
   text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem; }
 
 .u-margin-bottom-8 {
   margin-bottom: 8rem; }
