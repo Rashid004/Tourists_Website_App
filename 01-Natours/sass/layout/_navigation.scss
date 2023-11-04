@@ -28,7 +28,6 @@
    transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
-
   &__nav {
    height: 100vh;
    position: fixed;
@@ -67,17 +66,17 @@
        background-size: 220%;
        transition: all .4s;
 
-        span {
-          margin-right: 1.5rem;
-          display: inline-block;
-          }
+      span {
+        margin-right: 1.5rem;
+        display: inline-block;
         }
+      }
         
-      &:hover,
-      &:active {
-        background-position: 100%;
-        color: $color-primary;
-        transform: translateX(1rem);
+    &:hover,
+    &:active {
+      background-position: 100%;
+      color: $color-primary;
+      transform: translateX(1rem);
     }
   }
 
