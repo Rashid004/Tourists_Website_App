@@ -1,27 +1,29 @@
+/** @format */
+
 // COLOR
-$color-primary:#55c57a;
-$color-primary-light:#7ed56f;
-$color-primary-darker:#28b485;
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-darker: #28b485;
 
-$color-secondary-light:#ffb900;
-$color-secondary-dark:#ff7730;
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
 
-$color-tertary-light:#2998ff;
-$color-tertary-dark:#5643fa;
+$color-tertary-light: #2998ff;
+$color-tertary-dark: #5643fa;
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 
-$color-grey-darker:#777;
-$color-grey-darker-2:#999;
-$color-grey-darker-3:#333;
+$color-grey-darker: #777;
+$color-grey-darker-2: #999;
+$color-grey-darker-3: #333;
 
+$color-white: #fff;
+$color-black: #000;
 
-$color-white: #fff; 
-$color-black:#000;
-
-$default-font-size:1.6rem;
-
+$default-font-size: 1.6rem;
+// grid
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
